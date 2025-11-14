@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Effect Maker Timer",
+  "version": "1.8",
+  "description": "Adds a timer to the YouTube Effects Maker project, helping you keep track of time spent per project",
+  "author": "@extraakash",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+  "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
